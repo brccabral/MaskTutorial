@@ -11,7 +11,7 @@ obstacle_mask = pygame.mask.from_surface(obstacle_surf)
 
 # mask -> surface 
 new_obstacle_surf = obstacle_mask.to_surface()
-new_obstacle_surf.set_colorkey((0,0,0))
+new_obstacle_surf.set_colorkey((0,0,0)) # alpha color
 
 # filling in the surface with a color
 surf_w,surf_h = new_obstacle_surf.get_size()
