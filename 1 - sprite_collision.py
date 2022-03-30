@@ -47,6 +47,8 @@ while True:
 			player.sprite.image.fill('green')
 		else:
 			player.sprite.image.fill('red')
+	else:
+		player.sprite.image.fill('blue')
 	
 	pygame.display.update()
 	clock.tick(60)
