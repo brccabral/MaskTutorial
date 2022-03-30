@@ -37,9 +37,9 @@ while True:
 	screen.fill('white')
 	
 	# updating and drawing 
+	obstacle.draw(screen) 
 	player.update()
 	player.draw(screen)
-	obstacle.draw(screen) 
 
 	# collision
 	if pygame.sprite.spritecollide(player.sprite,obstacle,False):
